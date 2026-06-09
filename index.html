@@ -1,0 +1,84 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMFA - Comfy Fashionist</title>
+    <link rel="stylesheet" href="fashion.css">
+  </head>
+  <body>
+      <header>
+          <h1>COMFA</h1>
+          <p>Fashion Your Way. Dress Your Story.</p>
+          <a href="#shop" class="btn">Shop Now</a>
+      </header>
+      <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="container" id="home">
+        <h2>New Arrivals 2026</h2>
+        <div class="grid" id="shop">
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1581044777550-4cfa60707b5a?q=80&w=688" alt="Evening Dress">
+            <div class="card-content">
+              <h3>Midnight Elegance Dress</h3>
+              <p>Black satin dress for evening events. Classic and timeless.</p>
+              <p class="price">TZS85.00</p>
+              <button class="btn" onclick="alert('Added to cart! 🛍️')">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=687" alt="Suit">
+            <div class="card-content">
+              <h3>Modern Office Suit</h3>
+              <p>Slim-fit suit for work or meetings. Boost your confidence.</p>
+              <p class="price">TZS120.00</p>
+              <button class="btn" onclick="alert('Added to cart! 🛍️')">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d7?q=80&w=687" alt="Casual Wear">
+            <div class="card-content">
+              <h3>Streetwear Hoodie</h3>
+              <p>Oversize hoodie for weekend vibes. Comfort meets style.</p>
+              <p class="price">TZS45.00</p>
+              <button class="btn" onclick="alert('Added to cart! 🛍️')">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="about" id="about">
+        <h2>About COMFA</h2>
+        <p>COMFA Style is an African fashion brand founded in 2024. We design clothes that blend culture with modern style. Every piece has its own story.</p>
+        <p>"It's not just clothing, it's your identity."</p>
+      </section>
+
+      <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <form onsubmit="alert('Thank you! We received your message. We will contact you soon ❤️'); return false;">
+          <input type="text" placeholder="Full Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <input type="tel" placeholder="Phone Number">
+          <textarea rows="4" placeholder="Your message or order..." required></textarea>
+          <button type="submit" class="btn" style="width:100%; margin-top:15px;">Send Message</button>
+        </form>
+      </div>
+
+      <footer>
+        <p> copyright &copy; 2026 COMFA Style. All Rights Reserved | Dar es Salaam, Tanzania</p>
+        <p>Instagram: &copy;comfastyle.tz | WhatsApp: +255 745 353 554</p>
+      </footer>
+  </body>
+</html>
+
+
+
+
