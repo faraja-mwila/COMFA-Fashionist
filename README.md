@@ -24,3 +24,6 @@ COMFA-fashionist/
 ├── index.html        # Main HTML structure file
 ├── fashion.css       # Core stylesheet for design and layout
 └── README.md         # Project documentation (this file)
+## my link
+git clone [https://github.com/faraja-mwila/COMFA-Fashionist.git](https://github.com/faraja-mwila/COMFA-Fashionist.git)
+
